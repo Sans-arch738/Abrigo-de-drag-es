@@ -1,6 +1,6 @@
  Draconis — Santuário de Dragões
 
-#Tema do projeto
+Tema do projeto
 
 O Draconis é um sistema fictício desenvolvido para administrar um santuário responsável pelo resgate, cuidado, tratamento e adoção de dragões de diferentes espécies. A proposta é adaptar um sistema convencional de abrigo de animais para um universo fantástico, utilizando dragões como criaturas resgatadas e acompanhadas pelo sistema.
 
