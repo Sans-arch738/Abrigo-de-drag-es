@@ -11,11 +11,11 @@ O Draconis é um sistema fictício desenvolvido para administrar um santuário r
 
 ## Divisão dos cadastros
 
-### Integrante 1 — Cadastro de Dragões
+### Samuel Juvino — Cadastro de Dragões
 Responsável pelo cadastro e gerenciamento dos dragões resgatados pelo santuário, incluindo informações como nome, espécie, porte, sexo, idade estimada, data de resgate e situação atual.
 
-### Integrante 2 — Cadastro de Adotantes
+### Wirllany Kemilly — Cadastro de Adotantes
 Responsável pelo cadastro dos interessados em adotar dragões, incluindo informações pessoais, data de nascimento, contato e endereço.
 
-### Integrante 3 — Cadastro de Pedidos de Adoção
+### Ismael Levi — Cadastro de Pedidos de Adoção
 Responsável pelo registro e acompanhamento dos pedidos de adoção, incluindo o dragão desejado, o adotante responsável, a data do pedido e o andamento do processo.
