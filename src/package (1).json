@@ -16,3 +16,13 @@
     "nodemon": "file:..."
   }
 }
+{
+    "nome": "Ignis",
+    "especie": "Ignis",
+    "porte": "Grande",
+    "sexo": "Macho",
+    "idadeEstimada": 25,
+    "dataResgate": "2026-11-22",
+    "dadosResgate": "Encontrado ferido próximo a uma floresta.",
+    "situacao": "Em tratamento"
+}
