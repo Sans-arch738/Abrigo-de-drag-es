@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Draconis | Santuário de Dragões</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🐉 Draconis</h1>
+        <p>Santuário e gerenciamento de dragões</p>
+    </header>
+
+    <nav>
+        <button onclick="mostrarSecao('inicio')">Início</button>
+        <button onclick="mostrarSecao('cadastro')">Cadastrar</button>
+        <button onclick="mostrarSecao('lista')">Dragões cadastrados</button>
+        <button onclick="mostrarSecao('adocao')">Disponíveis para adoção</button>
+    </nav>
+
+    <main>
+
+        <!-- Página inicial -->
+        <section id="inicio" class="inicio">
+    <div class="apresentacao">
+        <p class="subtitulo">✦ SANTUÁRIO DE DRAGÕES ✦</p>
+
+        <h2>O Refúgio dos Dragões</h2>
+
+        <p class="descricao">
+            Um lugar de proteção, cuidado e esperança para dragões
+            que precisam de um novo começo.
+        </p>
+
+        <p class="mensagem">
+            Cada dragão possui uma história. Nossa missão é oferecer
+            segurança, tratamento e a oportunidade de encontrar um lar.
+        </p>
+
+        <button onclick="mostrarSecao('cadastro')">
+            Cadastrar um dragão
+        </button>
+    </div>
+
+    <div class="simbolo">
+        🐉
+        <p>Protegendo criaturas extraordinárias</p>
+    </div>
+</section>
+
+        <!-- Cadastro de dragões -->
+        <section id="cadastro" hidden>
+            <h2>Cadastrar novo dragão</h2>
+
+            <form id="formCadastro">
+                <label>Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label>Espécie:</label>
+                <select id="especie" required>
+                    <option value="">Selecione</option>
+                    <option>Ignis</option>
+                    <option>Sylvan</option>
+                    <option>Aquaris</option>
+                    <option>Nereus</option>
+                    <option>Zephyrus</option>
+                    <option>Altaris</option>
+                    <option>Glacius</option>
+                    <option>Duneris</option>
+                    <option>Noctis</option>
+                    <option>Vectaris</option>
+                </select>
+
+                <label>Porte:</label>
+                <select id="porte" required>
+                    <option value="">Selecione</option>
+                    <option>Pequeno</option>
+                    <option>Médio</option>
+                    <option>Grande</option>
+                </select>
+
+                <label>Sexo:</label>
+                <select id="sexo" required>
+                    <option value="">Selecione</option>
+                    <option>Macho</option>
+                    <option>Fêmea</option>
+                </select>
+
+                <label>Idade estimada:</label>
+                <input type="number" id="idadeEstimada" min="0" required>
+
+                <label>Data do resgate:</label>
+                <input type="date" id="dataResgate" required>
+
+                <label>Dados do resgate:</label>
+                <textarea id="dadosResgate" required></textarea>
+
+                <label>Situação:</label>
+                <select id="situacao" required>
+                    <option value="">Selecione</option>
+                    <option>Em tratamento</option>
+                    <option>Disponível para adoção</option>
+                    <option>Adotado</option>
+                </select>
+
+                <button type="submit">Cadastrar dragão</button>
+            </form>
+        </section>
+
+        <!-- Lista de dragões -->
+        <section id="lista" hidden>
+            <h2>Dragões cadastrados</h2>
+            <div id="listaDragoes"></div>
+        </section>
+
+        <!-- Adoção -->
+        <section id="adocao" hidden>
+            <h2>Dragões disponíveis para adoção</h2>
+            <div id="listaAdocao"></div>
+        </section>
+
+    </main>
+
+
+<footer>
+    <h2>🐉 Draconis</h2>
+
+    <p>Um lar seguro para criaturas extraordinárias.</p>
+
+    <p class="creditos">
+        Projeto desenvolvido para o gerenciamento e acolhimento de dragões.
+    </p>
+
+    <p class="direitos">
+        © 2026 Draconis - Santuário de Dragões
+    </p>
+</footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
