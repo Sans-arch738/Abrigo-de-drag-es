@@ -1,0 +1,261 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14251d;
+    color: #f1ead7;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0c1913;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 2px solid #b99b50;
+}
+
+header h1 {
+    color: #d6b65c;
+    margin-bottom: 8px;
+}
+
+/* Menu */
+nav {
+    background-color: #203b2d;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: #b99b50;
+    color: #14251d;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d6b65c;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #203b2d;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #d6b65c;
+    margin-bottom: 15px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    background-color: #f1ead7;
+    color: #14251d;
+    padding: 10px;
+    border: 1px solid #b99b50;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+/* Página inicial */
+
+.inicio {
+    text-align: center;
+    padding: 45px 25px;
+    border: 1px solid #b99b50;
+}
+
+.apresentacao {
+    max-width: 650px;
+    margin: auto;
+}
+
+.subtitulo {
+    color: #d6b65c;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.inicio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    color: #d6cdb8;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.simbolo {
+    margin-top: 35px;
+    font-size: 65px;
+}
+
+.simbolo p {
+    font-size: 14px;
+    color: #d6b65c;
+    margin-top: 10px;
+}
+
+/* Cartões dos dragões */
+
+#listaDragoes,
+#listaAdocao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.cartao-dragao {
+    background-color: #14251d;
+    border: 1px solid #b99b50;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.cartao-dragao h3 {
+    color: #d6b65c;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.cartao-dragao p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.cartao-dragao hr {
+    border: 0;
+    border-top: 1px solid #b99b50;
+    margin-top: 15px;
+}
+
+.status-adocao {
+    color: #d6b65c;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+
+/* Formulário de cadastro */
+
+#cadastro {
+    border: 1px solid #b99b50;
+}
+
+#formCadastro {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+#formCadastro label {
+    color: #d6b65c;
+    margin-top: 8px;
+}
+
+#formCadastro input,
+#formCadastro select,
+#formCadastro textarea {
+    width: 100%;
+    background-color: #f1ead7;
+    color: #14251d;
+    border: 1px solid #b99b50;
+    padding: 12px;
+    border-radius: 6px;
+    outline: none;
+}
+
+#formCadastro input:focus,
+#formCadastro select:focus,
+#formCadastro textarea:focus {
+    border: 2px solid #d6b65c;
+}
+
+#formCadastro textarea {
+    min-height: 120px;
+}
+
+#formCadastro button {
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 15px;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #0c1913;
+    border-top: 2px solid #b99b50;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer h2 {
+    color: #d6b65c;
+    margin-bottom: 12px;
+}
+
+footer p {
+    color: #f1ead7;
+    margin-bottom: 10px;
+}
+
+footer .creditos {
+    color: #c5b99e;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+footer .direitos {
+    color: #b99b50;
+    font-size: 12px;
+    margin-top: 15px;
+}
